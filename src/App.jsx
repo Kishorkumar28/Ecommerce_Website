@@ -10,7 +10,7 @@ function App() {
   const [cart, setCart] = useState([]);
 
   useLayoutEffect(() => {
-    fetch("http://localhost:5173/products.json")
+    fetch("https://ecommercreactesample.netlify.app/products.json")
       .then((response) => response.json())
       .then((result) => {
         if (result.data.length > 0) {
