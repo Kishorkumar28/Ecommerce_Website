@@ -6,7 +6,7 @@ export default function NavBar({ quantity = 0 }) {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container px-4 px-lg-5">
         <a className="navbar-brand" href="#!">
-          Bingo Cart
+          Bingo Mart
         </a>
         <button
           className="navbar-toggler"
